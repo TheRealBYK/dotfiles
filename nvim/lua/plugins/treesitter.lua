@@ -1,0 +1,63 @@
+return {
+	{
+		"nvim-treesitter/nvim-treesitter",
+		build = ":TSUpdate",
+		config = function()
+			local configs = require("nvim-treesitter.configs")
+			configs.setup({
+				highlight = {
+					enable = true,
+				},
+				indent = {
+					enable = true,
+				},
+				autotage = {
+					enable = true,
+				},
+				ensure_installed = {
+					"bash",
+					"c",
+					"c_sharp",
+					"cpp",
+					"css",
+					"fennel",
+					"fortran",
+					"go",
+					"html",
+					"http",
+					"hurl",
+					"hyprlang",
+					"java",
+					"javadoc",
+					"javascript",
+					"jsdoc",
+					"json",
+					"json5",
+					"jsonnet",
+					"lua",
+					"luadoc",
+					"luap",
+					"perl",
+					"php",
+					"python",
+					"requirements",
+					"ruby",
+					"rust",
+					"sql",
+					"toml",
+					"turtle",
+					"tsx",
+					"typescript",
+					"vim",
+					"xml",
+					"xresources",
+					"yaml",
+					"yang",
+					"yuck",
+					"zig",
+				},
+				auto_install = false,
+			})
+		end,
+	},
+}

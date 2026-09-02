@@ -1,0 +1,1214 @@
+/***
+ *    ┳┳┓┏┓┏┳┓┳┳┏┓┏┓┳┓  ┓ ┏┏┓┓┏┳┓┏┓┳┓
+ *    ┃┃┃┣┫ ┃ ┃┃┃┓┣ ┃┃━━┃┃┃┣┫┗┫┣┫┣┫┣┫
+ *    ┛ ┗┛┗ ┻ ┗┛┗┛┗┛┛┗  ┗┻┛┛┗┗┛┻┛┛┗┛┗
+ *                                   
+ */
+
+/*-----Surface Transparent Background------*/
+@define-color surface-alpha {
+        {
+        colors.surface.default.rgba | set_alpha: 0.5
+    }
+}
+
+;
+
+/*-----All Colors--------*/
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+@define-color {
+        {
+        name
+    }
+}
+
+    {
+        {
+        value.default.hex
+    }
+}
+
+;
+
