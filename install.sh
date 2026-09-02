@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 echo -e "Checking for dependencies...\n"
-sudo pacman -S --needed alacritty hyprland hyprlock matugen neovim rofi waybar wofi zsh
-yay -S --needed python-pywal16-git
+sudo pacman -S --needed alacritty hyprland hyprlock neovim rofi waybar wofi zsh
+yay -S --needed python-pywal16-git matugen-bin
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
