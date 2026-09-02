@@ -141,18 +141,20 @@ return {
         })
 
         local cmp = require("cmp")
+        local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
         vim.lsp.config("clangd", {
+            capabilities = capabilities,
             cmd = {
                 "clangd",
                 "--background-index", -- Index project in the background
                 "--clang-tidy", -- Enable linting
                 "--header-insertion=iwyu", -- "Include What You Use" (auto-includes headers)
-                -- "--compile-commands-dir=build",
+                -- "--compile-commands-dir=../build",
                 "--fallback-style=none",
-                -- "-I../dependencies/include",
             },
         })
+
         require("luasnip.loaders.from_vscode").lazy_load()
 
         vim.opt.completeopt = { "menu", "menuone", "noselect" }

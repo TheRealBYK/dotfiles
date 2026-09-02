@@ -11,7 +11,7 @@ return {
 				indent = {
 					enable = true,
 				},
-				autotage = {
+				autotag = {
 					enable = true,
 				},
 				ensure_installed = {
